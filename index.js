@@ -18,10 +18,5 @@ const getFamilyPerson = function () {
       return `${key} it\`s ${family[key]}`;
     }
   }
-  // return family;
 };
 console.log(getFamilyPerson());
-
-// const resultFamily = getFamilyPerson();
-// for (const key in resultFamily) {
-//     console.log(`${key} it\`s ${resultFamily[key]}`);}
